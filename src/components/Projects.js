@@ -1,6 +1,6 @@
 // use <Grid> with <Card> objects
 
-import {Card, CardContent, Grid, Paper, Typography} from "@mui/material";
+import {Grid, Paper} from "@mui/material";
 import ProjectsItem from "./ProjectsItem";
 
 const projects = [

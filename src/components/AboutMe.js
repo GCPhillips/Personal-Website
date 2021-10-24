@@ -1,4 +1,4 @@
-import {Avatar, Container, Link, Paper, Typography} from "@mui/material";
+import {Avatar, Link, Paper, Typography} from "@mui/material";
 import PersonalTimeline from "./PersonalTimeline";
 import Skills from "./Skills";
 

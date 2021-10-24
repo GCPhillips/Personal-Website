@@ -12,7 +12,7 @@ const projects = [
     },
     {
         label: "Personal Website",
-        description: "My personal website, developed with React and hosted through AWS Route 53.",
+        description: "My personal website, developed with React and hosted on an EC2 instance in AWS.",
         technology: ["AWS", "React", "HTML/CSS/JS"],
         github: "https://github.com/GCPhillips/Personal-Website"
     }

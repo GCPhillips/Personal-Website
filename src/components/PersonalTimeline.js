@@ -41,8 +41,8 @@ const timeline = [
 export default function PersonalTimeline() {
     return (
         <Timeline position="alternate">
-            {timeline.map((tl) =>
-                <PersonalTimelineItem header={tl.header} content={tl.content} year={tl.year} icon={tl.icon} />
+            {timeline.map((tl, index) =>
+                <PersonalTimelineItem header={tl.header} content={tl.content} year={tl.year} icon={tl.icon} key={index}/>
             )}
         </Timeline>
     );

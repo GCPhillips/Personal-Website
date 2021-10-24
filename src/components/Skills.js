@@ -13,8 +13,8 @@ export default function Skills() {
     return (
         <div style={{ display: "flex", justifyContent: "center"}}>
             <ul stlye={{margin: "15px"}}>
-                {skills.map((skill) =>
-                    <SkillsItem name={skill.name} rating={skill.rating} />
+                {skills.map((skill, index) =>
+                    <SkillsItem name={skill.name} rating={skill.rating} key={index} />
                 )}
             </ul>
         </div>

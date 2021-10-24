@@ -24,7 +24,12 @@ export default function Projects() {
             <div style={{ padding: "15px"}}>
                 <Grid container spacing={4}>
                 {projects.map((project, index) =>
-                    <ProjectsItem label={project.label} description={project.description} technology={project.technology} key={index}/>
+                    <ProjectsItem
+                        label={project.label}
+                        description={project.description}
+                        technology={project.technology}
+                        github={project.github}
+                        key={index}/>
                 )}
                 </Grid>
             </div>

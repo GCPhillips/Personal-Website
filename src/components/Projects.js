@@ -23,10 +23,8 @@ export default function Projects() {
         <Paper elevation={10} style={{ marginTop: "25px" }}>
             <div style={{ padding: "15px"}}>
                 <Grid container spacing={4}>
-                {projects.map((project) =>
-                    <Grid item xs={12} md={6}>
-                        <ProjectsItem label={project.label} description={project.description} technology={project.technology}/>
-                    </Grid>
+                {projects.map((project, index) =>
+                    <ProjectsItem label={project.label} description={project.description} technology={project.technology} key={index}/>
                 )}
                 </Grid>
             </div>

@@ -9,9 +9,11 @@ export default function NavBar(props) {
 
     return (
         <Box sx={{ borderBottom: 1, borderColor: 'divider'}}>
-            <Tabs textColor="primary" centered value={props.value} onChange={handleChange}>
-                <Tab label="About Me" />
-                <Tab label="Projects" />
+            <div style={{ display: "flex", justifyContent: "center" }}>
+                <Tabs textColor="primary" value={props.value} onChange={handleChange}>
+                    <Tab label="About Me" />
+                    <Tab label="Projects" />
+                </Tabs>
                 <a href="https://www.linkedin.com/in/gcphillips/" style={{ display: "flex"}}>
                     <IconButton>
                         <LinkedIn />
@@ -22,7 +24,7 @@ export default function NavBar(props) {
                         <GitHub />
                     </IconButton>
                 </a>
-            </Tabs>
+            </div>
         </Box>
     )
 }

@@ -1,11 +1,11 @@
-import {Avatar, Link, Paper, Typography} from "@mui/material";
+import {Avatar, Container, Link, Paper, Typography} from "@mui/material";
 import PersonalTimeline from "./PersonalTimeline";
 import Skills from "./Skills";
 
 export default function AboutMe() {
     return (
-        <Paper elevation={10}>
-            <div style={{ display: "flex", padding: 15, margin: 15, justifyContent: "center"}}>
+        <Paper elevation={10} style={{ marginTop: "25px"}}>
+            <div style={{ display: "flex", padding: 15, justifyContent: "center"}}>
                 <Avatar
                     component={Paper}
                     elevation={10}

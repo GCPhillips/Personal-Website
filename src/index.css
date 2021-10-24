@@ -5,3 +5,7 @@ hr {
     width: 50%;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
+
+html {
+    overflow-y: scroll;
+}

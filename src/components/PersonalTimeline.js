@@ -7,7 +7,7 @@ import PersonalTimelineItem from "./PersonalTimelineItem";
 const timeline = [
     {
         header: "University of North Texas",
-        content: "Bachelor of Music in Composition, GPA: 3.4",
+        content: "Graduated with Bachelor of Music in Composition, GPA: 3.4",
         year: "2011",
         icon: <School />
     },
@@ -31,8 +31,14 @@ const timeline = [
     },
     {
         header: "Auburn University",
-        content: "Bachelor of Computer Science, GPA: 4.0",
+        content: "Graduated with Bachelor of Computer Science, GPA: 4.0",
         year: "2020",
+        icon: <School />
+    },
+    {
+        header: "University of Texas",
+        content: "Beginning of Master of Science, Computer Science",
+        year: "2022",
         icon: <School />
     }
 ]

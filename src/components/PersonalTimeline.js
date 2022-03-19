@@ -40,6 +40,12 @@ const timeline = [
         content: "Beginning of Master of Science, Computer Science",
         year: "2022",
         icon: <School />
+    },
+    {
+        header: "AVI-SPL",
+        content: "Software Engineer",
+        year: "2022",
+        icon: <Laptop />
     }
 ]
 

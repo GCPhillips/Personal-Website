@@ -46,6 +46,12 @@ const timeline = [
         content: "Software Engineer",
         year: "2022",
         icon: <Laptop />
+    },
+    {
+        header: "AVI-SPL",
+        content: "Senior Software Engineer",
+        year: "2023",
+        icon: <Laptop />
     }
 ]
 

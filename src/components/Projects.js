@@ -5,6 +5,12 @@ import ProjectsItem from "./ProjectsItem";
 
 const projects = [
     {
+        label: "Musical Instrument Classifier",
+        description: "A research project studying different types of neural networks used to classify musical instruments from audio files.",
+        technology: ["Python", "Pytorch"],
+        github: "https://github.com/GCPhillips/musical-instrument-classifier"
+    },
+    {
         label: "Java Image Gallery",
         description: "An AWS-deployed application for adding, removing, and viewing images.",
         technology: ["AWS", "Docker", "Gradle", "Java", "Java Spark", "SQL"],

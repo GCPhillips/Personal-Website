@@ -2,9 +2,8 @@ import SkillsItem from "./SkillsItem";
 
 const skills = [
     { name: "Crestron Programming", rating: 5},
-    { name: "C#", rating: 4 },
     { name: "Java", rating: 4 },
-    { name: "Python", rating: 3 },
+    { name: "Python", rating: 4 },
     { name: "Docker", rating: 3 },
     { name: "Linux", rating: 3 },
     { name: "AWS", rating: 2}

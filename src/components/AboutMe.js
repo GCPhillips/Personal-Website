@@ -16,10 +16,12 @@ export default function AboutMe() {
             </div>
             <div style={{padding: "0px 15px"}}>
                 <Typography variant={"p"}>
-                    Hey there! My name is Grant Phillips.  I'm currently a Senior Programmer at AVI-SPL where I program Crestron control systems.
+                    Hey there! My name is Grant Phillips.  I'm currently a Senior Software Engineer at AVI-SPL where I develop our <a href="https://avispl.com/symphony/">Symphony</a> product.
                     <br/>
-                    I am an Auburn University graduate where I received my Bachelor of Computer Science degree in 2020 with a 4.0 GPA.
-                    My current areas of interest are in fine-tuning Software Engineering practices, working within Linux, and learning more about AWS.
+                    I am currently completing my Master of Science in Computer Science degree at the University of Texas.
+                    <br/>
+                    <br/>
+                    My current areas of interest are in fine-tuning Software Engineering practices, learning about Machine Learning, and applying Machine Learning to music and audio problems. 
                     <br/>
                     <br/>
                     Want to get in touch? Connect with me on {<Link href={"https://www.linkedin.com/in/gcphillips"}>LinkedIn</Link>}!

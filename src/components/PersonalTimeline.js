@@ -37,7 +37,7 @@ const timeline = [
     },
     {
         header: "University of Texas",
-        content: "Beginning of Master of Science, Computer Science",
+        content: "Beginning of Master of Science in Computer Science",
         year: "2022",
         icon: <School />
     },
@@ -52,6 +52,12 @@ const timeline = [
         content: "Senior Software Engineer",
         year: "2023",
         icon: <Laptop />
+    },
+    {
+        header: "University of Texas",
+        content: "Graduated with Master of Science in Computer Science, GPA: 3.5",
+        year: "2024",
+        icon: <School />
     }
 ]
 
